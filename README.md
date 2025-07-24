@@ -73,8 +73,13 @@ Use freely for research, education, or experimental design work. Attribution app
 
 ---
 
-## 📷 Preview
+## 🖼 Prototype Overview
 
-![Prototype](images/Pic1.png)
+Here are the prototype images of **Wavering Arc**, showing both the archway and the dynamic visual disc:
 
----
+### 🔧 Pic1: Full Prototype Structure
+![Prototype Structure](./Pic1.png)
+
+### 🎨 Pic2: Color Visualization Disc
+![Color Visualization](./Pic2.png)
+
