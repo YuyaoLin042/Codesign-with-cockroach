@@ -9,8 +9,8 @@ void setup() {
   println("Available Ports:");
   println(Serial.list());
 
-  // ✅ 选择正确端口，如 COM3 / ttyUSB0
-  String portName = Serial.list()[6];  // 修改索引以匹配你的实际端口
+  // ✅ choose COM3 / ttyUSB0
+  String portName = Serial.list()[6];  // 
   myPort = new Serial(this, portName, 9600);
   myPort.bufferUntil('\n');
 }
@@ -23,7 +23,7 @@ void draw() {
   fill(50);
   text("Wavering Arc: Human & Roach", width/2, 40);
 
-  // 平衡杆角度
+  // 
   float delta = humanTension - roachTension;
   float maxAngle = radians(30);
   float angle = constrain(delta * maxAngle, -maxAngle, maxAngle);
@@ -32,7 +32,7 @@ void draw() {
   translate(width/2, height/2);
   rotate(angle);
 
-  // 杆子
+  // 
   stroke(0);
   strokeWeight(4);
   line(-150, 0, 150, 0);
